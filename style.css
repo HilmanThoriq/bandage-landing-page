@@ -1,0 +1,147 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.blue {
+  color: #23A6F0;
+}
+
+.top-navbar {
+  background-color: #2ca08e;
+  color: white;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.top-navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-navbar a:hover {
+  text-decoration: underline;
+}
+
+.follow {
+  font-weight: bold;
+}
+
+.bottom-navbar .nav-link {
+  color: #000;
+}
+
+.bottom-navbar .nav-link:hover {
+  color: #2ca08e;
+}
+
+.navbar-nav {
+  font-weight: bold;
+}
+
+.text-blue {
+  color: #23A6F0 !important;
+}
+
+ol.breadcrumb {
+  font-weight: bold;
+}
+
+ol.breadcrumb a {
+  text-decoration: none;
+}
+
+.img-thumbnail {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.price {
+  font-weight: 800;
+}
+
+
+.btn-options {
+  border-radius: 100%;
+}
+.color-swatch {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-swatch:hover {
+  border: 1px solid #ccc;
+}
+
+.carousel-item img {
+  max-height: 520px;
+  object-fit: cover;
+}
+.img-thumbnail {
+  cursor: pointer;
+}
+
+.select-option {
+  margin-top: 65px;
+}
+
+.btn-select-option {
+  background-color: #23A6F0;
+  color: white;
+  font-weight: 400;
+}
+
+.bestseller-products{
+  margin-top: 80px;
+}
+.bestseller-products h3 {
+  font-size: 24px;
+}
+.bestseller-products .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  height: 350px;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin-bottom: 5px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}

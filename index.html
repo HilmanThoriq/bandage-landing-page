@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Icon -->
+  <link rel="icon" href="images/icon.jpg">
+  <link rel="apple-touch-icon" href="images/icon.jpg">
+  <title>Landing Page</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- Font Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- Navbar Atas -->
+  <nav class="top-navbar px-5">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <span><i class="bi bi-telephone-fill"></i> (225) 555-0018</span>
+        <span class="ms-3"><i class="bi bi-envelope"></i> michelle.rivera@example.com</span>
+      </div>
+      <div>
+        <span class="follow">Follow Us and get a chance to win 80% off</span>
+      </div>
+      <div>
+        <span>Follow Us:</span>
+        <a href="#" class="ms-2"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="ms-2"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="ms-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="ms-2"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar Bawah -->
+  <nav class="bottom-navbar navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Bandage</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Menu navigasi utama -->
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item"><a class="nav-link text-secondary" href="#">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Category 1</a></li>
+              <li><a class="dropdown-item" href="#">Category 2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link text-secondary" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary" href="#">Pages</a></li>
+        </ul>
+        <!-- Login/Register dan ikon lainnya -->
+        <ul class="navbar-nav">
+          <li class="nav-item me-4">
+            <a class="nav-link text-blue" href="#"><i class="bi bi-person me-2 text-blue"></i>Login / Register</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#"><i class="bi bi-search text-blue"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#"><i class="bi bi-cart text-blue"></i></a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#"><i class="bi bi-heart text-blue"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+
+    <!-- Breadcrumb -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="mb-4">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" class="text-dark">Home</a></li>
+        <li class="breadcrumb-item active text-secondary" aria-current="page">Shop</li>
+      </ol>
+    </nav>
+
+
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <!-- Carousel -->
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./src/image/product-1.svg" class="d-block w-100" alt="Product Image 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./src/image/product-23.jpg" class="d-block w-100" alt="Product Image 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Thumbnail -->
+        <div class="d-flex mt-3">
+          <img id="thumb-1" src="./src/image/product-1.svg" class="img-thumbnail me-2" alt="Thumbnail 1">
+          <img id="thumb-2" src="./src/image/product-23.jpg" class="img-thumbnail me-2" alt="Thumbnail 2">
+        </div>
+
+      </div>
+
+      <div class="col-md-6 ps-5">
+        <!-- Product Details -->
+        <h2 class="mt-3">Floating Phone</h2>
+        <div class="d-flex align-items-center mb-3">
+          <span class=" text-center mt-1 me-2">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star text-warning"></i>
+            <span class="ms-2 fw-bold">10 Reviews</span>
+          </span>
+        </div>
+        <h3 class="text-success price mb-2">$1,139.33</h3>
+        <p>Availability: <span class="fw-bold blue">In Stock</span></p>
+        <p style="text-align: justify;" class="mt-5 mb-4">Met minim Mollie non desert Alamo est sit cliquey dolor do met
+          sent. RELIT official consequent door ENIM
+          RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+        <hr>
+        <!-- Colors -->
+        <span class="mt-5 mb-3">Colors:</span>
+        <div class="d-flex align-items-center mt-3 mb-4">
+          <br>
+          <div class="d-flex">
+            <div class="color-swatch me-2" style="background-color: #00bcd4;"></div>
+            <div class="color-swatch me-2" style="background-color: #ff9800;"></div>
+            <div class="color-swatch me-2" style="background-color: #4caf50;"></div>
+            <div class="color-swatch me-2" style="background-color: #9c27b0;"></div>
+            <div class="color-swatch me-2" style="background-color: #000;"></div>
+          </div>
+        </div>
+        <!-- Buttons -->
+        <div class="select-option">
+          <button class="btn me-2 btn-select-option">Select Options</button>
+          <button class="btn btn-outline-secondary mx-2 btn-options"><i class="bi bi-heart"></i></button>
+          <button class="btn btn-outline-secondary me-2 btn-options"><i class="bi bi-cart"></i></button>
+          <button class="btn btn-outline-secondary btn-options"><i class="bi bi-eye-fill"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bestseller-products px-4">
+      <h3 class="fw-bold text-left mb-4">BESTSELLER PRODUCTS</h3>
+      <hr class="mb-5">
+      <div class="row py-4">
+        <!-- Product Card 1 -->
+        
+      </div>
+    </div>
+
+    <!-- Pagination Control -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center mt-4">
+        <li class="page-item"><a class="page-link" href="#" id="prevPage">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#" id="nextPage">Next</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
